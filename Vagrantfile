@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
 
     linux.vm.provider "virtualbox" do |vb|
       vb.gui = true
-      vb.memory = 2048
+      vb.memory = 6543
       vb.cpus = 2
 
       # VBoxVGA flickers constantly, use vmsvga instead which doesn't have that problem
